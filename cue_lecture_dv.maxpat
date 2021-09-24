@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 77.0, 741.0, 780.0, 327.0 ],
+		"rect" : [ 634.0, 630.0, 779.0, 403.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -91,16 +91,16 @@
 					"bgfillcolor_type" : "gradient",
 					"gradient" : 1,
 					"id" : "obj-11",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1156.333333333333485, 329.0, 119.0, 56.0 ],
+					"patching_rect" : [ 1156.333333333333485, 329.0, 119.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 66.0, 55.0, 125.0, 56.0 ],
-					"text" : "\"3\" /Users/reng/Desktop/_shampoo/_lecture/_share/story.mp4"
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 66.0, 55.0, 125.0, 68.0 ],
+					"text" : "\"4\" /Users/reng/Desktop/_shampoo/_lecture/_video/_share/Announcement.mp4"
 				}
 
 			}
@@ -221,7 +221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 995.5, 839.0, 133.0, 20.0 ],
-					"text" : "08:32.5"
+					"text" : "03:0.0799"
 				}
 
 			}
@@ -373,7 +373,7 @@
 					"patching_rect" : [ 359.083333333333371, 62.0, 133.916666666666629, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 29.0, 250.0, 20.0 ],
-					"text" : "/stories once unmute"
+					"text" : "/ending prepare"
 				}
 
 			}
@@ -730,10 +730,10 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"1" : "/Users/reng/Desktop/_shampoo/_lecture/_share/講座式annoiunce.mp4",
-						"2" : "/Users/reng/Desktop/_shampoo/_lecture/_share/indomie.mp4",
-						"3" : "/Users/reng/Desktop/_shampoo/_lecture/_share/story.mp4",
-						"4" : "/Users/reng/Desktop/_shampoo/_lecture/_share/Announcement.mp4"
+						"1" : "/Users/reng/Desktop/_shampoo/_lecture/_share/_livingroom/2-2 03.mp4",
+						"2" : "/Users/reng/Desktop/_shampoo/_lecture/_share/_livingroom/2-3.mp4",
+						"3" : "/Users/reng/Desktop/_shampoo/_lecture/_share/_livingroom/2-4.mp4",
+						"4" : "/Users/reng/Desktop/_shampoo/_lecture/_share/_livingroom/2-5.mp4"
 					}
 ,
 					"id" : "obj-71",
@@ -804,8 +804,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 17.0, 67.0, 20.0 ],
-					"text" : "port 7777"
+					"patching_rect" : [ 520.0, 17.0, 62.0, 20.0 ],
+					"text" : "port 5555"
 				}
 
 			}
@@ -1058,7 +1058,7 @@
 					"patching_rect" : [ 377.0, 415.0, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 116.0, 125.0, 20.0 ],
-					"text" : "3"
+					"text" : "4"
 				}
 
 			}
@@ -1212,8 +1212,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 291.0, 150.0, 254.0, 20.0 ],
-					"text" : "route /announce /indomie /stories /ending"
+					"patching_rect" : [ 291.0, 150.0, 158.0, 20.0 ],
+					"text" : "route /2-2 /2-3 /2-4 /2-5"
 				}
 
 			}
@@ -1582,7 +1582,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 2 ],
+					"destination" : [ "obj-69", 3 ],
 					"order" : 0,
 					"source" : [ "obj-189", 0 ]
 				}
@@ -1590,8 +1590,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 1 ],
+					"destination" : [ "obj-69", 2 ],
 					"order" : 1,
+					"source" : [ "obj-189", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 1 ],
+					"order" : 2,
 					"source" : [ "obj-189", 0 ]
 				}
 
@@ -1952,13 +1960,6 @@
 					"destination" : [ "obj-60", 0 ],
 					"order" : 0,
 					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 3 ],
-					"source" : [ "obj-58", 0 ]
 				}
 
 			}
