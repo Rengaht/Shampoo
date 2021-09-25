@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 77.0, 741.0, 780.0, 327.0 ],
+		"rect" : [ 44.0, 777.0, 834.0, 294.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -91,16 +91,16 @@
 					"bgfillcolor_type" : "gradient",
 					"gradient" : 1,
 					"id" : "obj-11",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1156.333333333333485, 329.0, 119.0, 56.0 ],
+					"patching_rect" : [ 1156.333333333333485, 329.0, 119.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 66.0, 55.0, 125.0, 56.0 ],
-					"text" : "\"3\" /Users/reng/Desktop/_shampoo/_lecture/_share/story.mp4"
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 66.0, 55.0, 125.0, 68.0 ],
+					"text" : "\"1\" /Users/reng/Desktop/_shampoo/_lecture/_share/講座式annoiunce.mp4"
 				}
 
 			}
@@ -197,7 +197,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.0, 344.0, 88.0, 20.0 ],
-					"text" : "frame 10"
+					"text" : "position 0"
 				}
 
 			}
@@ -221,7 +221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 995.5, 839.0, 133.0, 20.0 ],
-					"text" : "08:32.5"
+					"text" : "01:10.037333"
 				}
 
 			}
@@ -373,7 +373,7 @@
 					"patching_rect" : [ 359.083333333333371, 62.0, 133.916666666666629, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 29.0, 250.0, 20.0 ],
-					"text" : "/stories once unmute"
+					"text" : "/announce prepare"
 				}
 
 			}
@@ -1058,7 +1058,7 @@
 					"patching_rect" : [ 377.0, 415.0, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 116.0, 125.0, 20.0 ],
-					"text" : "3"
+					"text" : "1"
 				}
 
 			}
@@ -1743,17 +1743,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 569.5, 424.0, 948.5, 424.0 ],
-					"order" : 0,
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
-					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2014,14 +2004,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"order" : 0,
-					"source" : [ "obj-63", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-63", 0 ]
 				}
@@ -2030,7 +2012,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
-					"order" : 1,
 					"source" : [ "obj-63", 1 ]
 				}
 
